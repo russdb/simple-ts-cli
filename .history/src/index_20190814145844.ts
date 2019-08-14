@@ -29,6 +29,4 @@ program
   
 program.parse(process.argv);  
 
-if (!process.argv.slice(2).length) {
-	program.outputHelp();
-}
+if (program.debug) console.log(program.opts());
