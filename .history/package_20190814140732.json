@@ -2,16 +2,9 @@
   "name": "pizza-cli",
   "version": "0.0.1",
   "description": "learning me some typescript!",
-  "main": "./lib/index.js",
-  "bin": {
-    "pizza": "./lib/index.js"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch `src/**/*.ts' --exec \"ts-node\" src/index.ts",
-    "create": "npm run build && npm run test",
-    "build": "tsc -p .",
-    "test": "sudo npm i -g && pizza",
-    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "david russell",
   "license": "MIT",
